@@ -1,0 +1,14 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #333; color: white; }
+.navbar ul { list-style-type: none; margin: 0; padding: 0; display: flex; }
+.navbar li { margin-right: 20px; }
+.navbar a { color: white; text-decoration: none; }
+.header { position: relative; text-align: center; color: white; background: url('background-image.jpg') no-repeat center center/cover; height: 100vh; }
+.header-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.header-text h1 { font-size: 3em; margin: 0; }
+.header-text p { font-size: 1.5em; }
+.booking-form { display: flex; justify-content: center; margin-top: 20px; }
+.booking-form input, .booking-form button { padding: 10px; margin: 5px; }
+.booking-form input { width: 200px; }
+.booking-form button { background-color: #333; color: white; border: none; cursor: pointer; }
