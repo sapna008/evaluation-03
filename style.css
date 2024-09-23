@@ -1,14 +1,244 @@
 
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-.navbar { display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #333; color: white; }
+.navbar { 
+    display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #333; color: white; }
 .navbar ul { list-style-type: none; margin: 0; padding: 0; display: flex; }
-.navbar li { margin-right: 20px; }
-.navbar a { color: white; text-decoration: none; }
-.header { position: relative; text-align: center; color: white; background: url('background-image.jpg') no-repeat center center/cover; height: 100vh; }
-.header-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-.header-text h1 { font-size: 3em; margin: 0; }
-.header-text p { font-size: 1.5em; }
-.booking-form { display: flex; justify-content: center; margin-top: 20px; }
-.booking-form input, .booking-form button { padding: 10px; margin: 5px; }
-.booking-form input { width: 200px; }
-.booking-form button { background-color: #333; color: white; border: none; cursor: pointer; }
+.navbar li { 
+    margin-right: 20px; }
+.navbar a { 
+    color: white; text-decoration: none; }
+.header-1 {
+     position: relative; text-align: center; color: white; background: url('backg.jpg') no-repeat center center/cover; height: 100vh; }
+.header-text-1 { 
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.header-text-1 h1 { 
+    font-size: 3em; margin: 0; }
+.header-text-1 p { 
+    font-size: 1.5em; }
+.booking-form-1 { 
+    display: flex; justify-content: center; margin-top: 20px; }
+.booking-form-1 input, .booking-form-1 button { 
+    padding: 10px; margin: 5px; }
+.booking-form-1 input { 
+    width: 200px; }
+.booking-form-1 button {
+     background-color: #333; color: white; border: none; cursor: pointer; 
+    }
+
+/* dusra */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.about-section { padding: 50px; background-color: #f4f4f4; }
+.about-section h1 { font-size: 1em; margin-bottom: 5px; color: #ff9900;}
+.about-section h2 { font-size: 1.5em; margin-bottom: 20px; }
+.about-content { display: flex; }
+.about-text { flex: 1; }
+.about-images { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+.about-images img { width: 80%; height: 200px; }
+.signature { font-family: 'Brush Script MT', cursive; font-size: 1.2em; margin-top: 20px; }
+
+/* teesra */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.amenities-section { padding: 50px; background-color: #f4f4f4; }
+.amenities-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.amenity { text-align: center; padding: 20px; background-color: white; border: 1px solid #ddd; border-radius: 8px; }
+.amenity img { width: 50px; height: 50px; margin-bottom: 10px; }
+.amenity h3 { font-size: 1.2em; margin-bottom: 10px; }
+.amenity p { font-size: 1em; color: #666; }
+
+/* chotha */
+
+.boxa{
+    width: 25%;
+    background-image: url(hot1.jpg);
+}
+.contain {
+    display: flex;
+    width: 100%;
+  }
+  .room {
+    position: relative;
+    width: 25%;
+    margin-right: 0px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .room:last-child {
+      margin-right:0; /* Removes margin from last child to maintain even spacing */
+   }
+
+   .room img {
+     width:90%;
+     height:90%; /* Maintains aspect ratio */
+     display:block; /* Removes bottom space under image */
+   }
+
+   .price-tag {
+     position:absolute;
+     bottom:10px; /* Position from bottom of parent */
+     left:10px; /* Position from left of parent */
+   }
+
+   .header {
+      text-align:center; /* Centers header text horizontally */
+      margin-bottom :20px; /* Space below header section */
+   }
+   .header p{
+    color: #ff9900;
+   }
+
+/* pachwa */
+.banner {
+    margin-left: 70px;
+    margin-right: 50px;
+    display: flex;
+    background-color: #ffff;
+    padding-left: 50px;
+    text-align: center;
+
+  }
+  .banner h1{
+    width: 80%;
+    text-align: left;
+    font-size: 1.2em;
+  }
+  .banner div{
+    width: 20%;
+
+  }
+  .explore-btn {
+    background-color: #a80e0e;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .testimonials {
+    display: flex;
+    background-color: #e9ecef;
+    padding: 50px;
+    text-align: center;
+  }
+  .testimonials h2{
+    font-size: 1em;
+    color: #ff9900;
+  }
+  .star-rating {
+    color: #ffc107;
+  }
+  .test1{
+    width: 40%;
+    margin-left: 80px;
+    text-align: left;
+
+  }
+  .test1 img{
+    height: 400px;
+    
+    
+  }
+  .test2{
+    width: 60%;
+    text-align: left;
+    padding-right: 100px;
+  }
+
+/* chata */
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.blog-post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+.blog-post img {
+  width: 300px;
+  height: 300px;
+  height: auto;
+}
+.category {
+  font-weight: bold;
+  color: #f7f3f2;
+  background-color: rgb(236, 85, 29);
+  height: 20px;
+  width: 50px;
+  padding: 5px;
+  align-items: center;
+}
+.title {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.date {
+  color: #6c757d;
+}
+.read-post {
+  color: #1c4570;
+  text-decoration: none;
+}
+/* satwa */
+.logo{
+    display: flex;
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+.abc{
+    background-color: black;
+    width: 100vw;
+    height: 500px;
+}
+.footer {
+   
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  .footer-section {
+    margin-right: 30px;
+    display: flex
+  }
+  .footer-section h3 {
+    color: orange;
+  }
+  .footer-section p,
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .newsletter input[type=email] {
+    padding: 10px;
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+  }
+  .newsletter button {
+    padding: 10px;
+    background-color: #ff9900;
+    height: 50px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+  }
+  .quick-links{
+    margin: 10px;
+    padding: 20px;
+  }
+  .newsletter h3{
+    color: white;
+margin: 10px;
+padding: 20px  }
